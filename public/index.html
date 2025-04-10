@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>BTP Demo</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 0 1em;
+      }
+      h1 {
+        color: #333;
+      }
+      .links {
+        display: flex;
+        gap: 1em;
+        margin-top: 2em;
+      }
+      a {
+        padding: 0.5em 1em;
+        background: #f0f0f0;
+        border-radius: 4px;
+        text-decoration: none;
+        color: #333;
+      }
+      a:hover {
+        background: #e0e0e0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>BTP Demo</h1>
+    <p>Choose a route to test:</p>
+    <div class="links">
+      <a href="/bounce-stateful">Stateful Bounce (with cookie)</a>
+      <a href="/bounce-stateless">Stateless Bounce (no cookie)</a>
+    </div>
+  </body>
+</html>
